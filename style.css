@@ -1,0 +1,66 @@
+/* Reset all CSS styles to default values */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card div {
+    outline: 1px rgba(128, 128, 128, 0.5) solid;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.5);
+}
+
+img {
+    width: 100%;
+}
+
+.choice {
+    display: flex;
+}
+
+.title {
+    padding: 5px 5px;
+}
+
+.cotroller {
+    padding: 5px 10px 10px 10px;
+}
+
+h3 {
+    padding-right: 5px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button button {
+    flex-grow: 1;
+    height: 40px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
